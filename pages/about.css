@@ -1,0 +1,10 @@
+section#about
+{
+	margin-top: 80px;
+}
+
+section#about .inner
+{
+	width: 800px;
+	padding-bottom: 40px;
+}

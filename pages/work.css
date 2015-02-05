@@ -1,0 +1,146 @@
+a:link
+{
+	text-decoration: none;
+}
+
+section#work
+{
+	padding-bottom: 20px;
+	box-shadow: 0 5px 5px 3px black;
+	margin-top: 0;
+}
+
+section#work .inner
+{
+	width: 1023px;
+	margin: 0 auto;
+}
+
+section#work .inner #workList
+{
+	list-style: none;
+}
+
+section#work .inner #workList li
+{
+	background: white;
+	margin: 20px 0;
+	position: relative;
+	height: 390px;
+}
+
+section#work .inner #workList li:nth-child(even) .listText, section#work .inner #workList li:nth-child(odd) img
+{
+	float: left;
+}
+
+section#work .inner #workList li:nth-child(even) img, section#work .inner #workList li:nth-child(odd) .listText
+{
+	float: right;
+}
+
+section#work .inner #workList .listText 
+{
+	vertical-align: middle;
+	display: inline-block;
+	padding: 30px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 60%;
+	height: 100%;
+	
+	display: flex;
+	align-items: center;
+}
+
+section#work .inner #workList .listText h3
+{
+	font-size: 22px;
+}
+
+section#work .inner #workList .listText .inner
+{
+	font-size: 14px;
+	color: #333;
+	line-height: 180%;
+	vertical-align: middle;
+}
+
+section#work .inner #workList img
+{
+	vertical-align: middle;
+	width: 40%;
+}
+
+section#work .inner #workList li.send
+{
+	height: auto;
+	text-align: center;
+	padding: 30px;
+}
+
+section#work .inner #workList li.send h3
+{
+	background: rgb(62, 132, 62);
+	display: inline-block;
+	padding: 15px 60px;
+	color: #fff;
+	font-size: 14px;
+	font-family: Lato;
+	letter-spacing: 1px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.clear
+{
+	clear: both;
+}
+
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+section#work h1
+{
+	position: absolute;
+	top: 332px;
+	width: 100%;
+	border: none;
+	color: #fff;
+	font-size: 36px;
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5) 70%);
+	padding-top: 40px;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	border-bottom: 1px solid #aaa;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}

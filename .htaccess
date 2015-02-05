@@ -1,0 +1,6 @@
+RewriteEngine on 
+
+RewriteBase /
+
+RewriteRule ^page/(.*)$ index.php?page=$1 [L,QSA]
+RewriteRule ^beta/(.*)$ $1 [L,QSA]

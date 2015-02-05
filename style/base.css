@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,900);
+
+body, html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Open Sans, sans-serif; 
+	font-size: 14px;
+	padding-bottom: 300px;
+}
+
+nav
+{
+	position: relative;
+	z-index: 200;
+	background: rgba(0,0,0,.8);
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+}
+
+nav .inner
+{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+nav .inner .logo_wrapper
+{
+	display: inline-block;
+	float: left;
+}
+
+nav .inner .logo_wrapper h1
+{
+	font-family: Open Sans;
+	font-weight: 900;
+	text-shadow: 0 1px black;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	font-size: 20px;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin-left: 4px;
+}
+
+nav .inner .right_menu
+{
+	float: right;
+	padding-top: 8px;
+}
+
+nav .inner #menuList
+{
+	list-style: none;
+}
+
+nav .inner #menuList li
+{
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 12px;
+}
+
+nav .inner #menuList a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav .inner .searchwrapper
+{
+	float: right;
+	vertical-align: middle;
+	padding-top: 14px;
+	margin-right: 40px;
+}
+
+nav .inner .searchwrapper input
+{
+	font-size: 12px;
+	padding: 10px;
+	border: none;
+	width: 400px;
+	outline: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: rgba(255,255,255,.9);
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+nav .inner .searchwrapper button
+{
+	width: 46px;
+	vertical-align: bottom;
+	height: 35px;
+	background: rgba(7, 167, 6, 0.9);
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+section
+{
+	background: #eee;
+	position: relative;
+	z-index: 100;
+}
+
+section.page
+{
+	margin-top: 80px;
+	box-shadow: 0 5px 5px 3px black;
+}
+
+section.page h1
+{
+	text-align: center;
+	margin: 60px 0;
+	font-size: 42px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+section > .inner
+{
+	padding: 1px 0;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+section > *
+{
+	z-index: 1;
+	position: relative;
+}
+
+.supercenter
+{
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bgcover
+{
+	background-position: center center;
+	background-size: cover;
+}
+
+.darken
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	background: rgba(0,0,0,.5);
+}
+
+footer
+{
+	background: #111;
+	position: fixed;
+	bottom: 0; 
+	left: 0;
+	width: 100%;
+	height: 300px;
+	Z-index: 0;
+	color: #fff;
+}
+
+footer .inner
+{
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer .inner .section
+{
+	display: inline-block;
+	text-align: left;
+	margin: 30px;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer .inner .section ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+footer .inner .section ul li
+{
+	margin: 8px 0;
+}
+
+footer .inner .section ul li a
+{
+	color: #bbb;
+	border-bottom: 1px dotted #bbb;
+	text-decoration: none;
+}
+
+footer .inner .section h3
+{
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: Uppercase;
+}
+
+footer .inner .legal
+{
+	color: #aaa;
+}
+
+footer .inner .section:first-child
+{
+	text-align: right;
+}

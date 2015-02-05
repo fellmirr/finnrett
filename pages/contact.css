@@ -1,0 +1,48 @@
+section#contact .inner
+{
+	width: 800px;
+}
+
+section#contact .inner form
+{
+	text-align: center;
+	padding-top: 26px;
+}
+
+section#contact .inner form input, section#contact .inner form textarea
+{
+	font-family: Open Sans;
+	border: none;
+	border-bottom: 1px solid #aaa;
+}
+
+section#contact .inner form textarea
+{
+	width: 600px;
+	height: 150px;
+	padding: 10px;
+}
+
+section#contact .inner form input[type="submit"]
+{
+	background: green;
+	color: white;
+	margin: 20px;
+	padding: 18px;
+}
+
+section#contact .inner form .top_line
+{
+	padding-bottom: 10px;
+}
+
+section#contact .inner form input
+{
+	width: 284px;
+	padding: 10px;
+}
+
+section#contact .inner form input:first-child
+{
+	margin-right: 10px;
+}
